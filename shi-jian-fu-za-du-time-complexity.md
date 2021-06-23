@@ -1,6 +1,9 @@
 # 时间复杂度 Time complexity
 
-
+●DFS：  
+时间为DFS的最大深度，也就是能够reach到图的最深处的那条路径的长度。  
+假设有n个node，构成一个图，进行DFS，那么worst case就是所有的node构成一条直线图；  
+那么时间就是`O(n)`；
 
 
 

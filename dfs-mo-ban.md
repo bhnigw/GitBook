@@ -2,6 +2,41 @@
 
 
 
+```text
+class Solution {
+    public int numIslands(char[][] grid) {
+        int res = 0;
+        
+        if (grid == null || grid.length == 0) return 0;
+        
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == '1') { //遇到island就加一
+                    res++;
+                    dfs(grid, i, j);                               
+                } 
+            } 
+        }
+        
+        return res;
+    }
+    
+    private void dfs(char[][] grid, int m, int n) {
+        if(m < 0 || n < 0 || m >= grid.length || n >= grid[0].length || grid[m][n] == '0') {
+            return;
+        }//这里if包含了；两个判断，一个是如果grid[m][n]=='0'就直接return
+         //第二个判断是：下面的m,n加一减一不能out of bound
+        
+        grid[m][n] = '0';
+        dfs(grid, m - 1, n); //注意这里m-1不能小于0
+        dfs(grid, m + 1, n); //这里m+1不能大于等于grid.length
+        dfs(grid, m, n + 1);
+        dfs(grid, m, n - 1); //这里n+1不能大于等于grid[0].length
+    }
+}                
+
+```
+
 
 
 

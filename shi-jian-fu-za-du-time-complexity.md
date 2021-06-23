@@ -7,8 +7,12 @@
 
 
 
-●BFS：  
-如果有n个node，构成一个图，进行BFS，那么worst case就是所有的node构成一条直线图：  
+●BFS：
+
+
+
+●Backtrack：  
+如果有n个node，构成一个图，进行Backtrack，那么worst case就是所有的node构成一条直线图：  
 假如n = 5，那么图为：
 
 ![](.gitbook/assets/207_chain.png)

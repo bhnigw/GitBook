@@ -92,7 +92,7 @@ class TrieNode { //三行内容分别是：一个char值，一个boolean值，�
 
 
 例题：  
-[208.Implement Trie \(Prefix Tree\)](https://app.gitbook.com/@bhnigw/s/leetcode/leetcode-208.-implement-trie-prefix-tree)
+[208.Implement Trie \(Prefix Tree\)](https://bhnigw.gitbook.io/leetcode/leetcode-208.-implement-trie-prefix-tree)
 
 
 

@@ -7,7 +7,9 @@
 
 
 
-●BFS：
+●BFS：  
+顶点vertex总数，加上edge的总数的总和，worst case下需要访问所有的vertex和edge；  
+所以时间就是`O(N + E)`；
 
 
 

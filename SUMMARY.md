@@ -20,7 +20,7 @@
 * [Collections](collections.md)
 * [DFS模版](dfs-mo-ban.md)
 * [BFS模版](bfs-mo-ban.md)
-* [Topological Sort 拓扑](topological-sort-tuo-pu.md)
+* [Topological Sort 拓扑排序](topological-sort-tuo-pu.md)
 * [关于Test Case](guan-yu-test-case.md)
 * [时间复杂度 Time complexity](shi-jian-fu-za-du-time-complexity.md)
 * [空间复杂度 Space complexity](kong-jian-fu-za-du-space-complexity.md)

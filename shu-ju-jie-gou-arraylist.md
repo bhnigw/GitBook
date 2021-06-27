@@ -9,7 +9,7 @@ description: 'ArrayList, Array, LinkedList'
 **初始化：**  
 一维：`List<Integer>() res = new ArrayList<>();`
 
-二维：`List<List<Character>>() res = new ArrayList<>();`
+二维：`List<List<Character>>() res = new ArrayList<>();` 一维二维等号后面都一样
 
 
 
@@ -25,7 +25,7 @@ description: 'ArrayList, Array, LinkedList'
 
 
 
-## **ArrayList 怎样转化为➔ Array:**
+### **ArrayList 怎样转化为➔ Array:**
 
 方法1：使用**`res.toArray();`    \(**方法2：遍历法；一个个get\(\)，依次加到array\)
 
@@ -36,7 +36,7 @@ arr = ArrList.toArray(arr);`
 
 
 
-## **Array 怎样转化为➔ ArrayList:**
+### **Array 怎样转化为➔ ArrayList:**
 
 方法1：使用**`Arrays.asList(res);`    \(**方法2：遍历法；把nums\[i\]一个个add\(\)进list\)
 
@@ -49,6 +49,20 @@ List<String> list = new ArrayList<String>();
 Collections.addAll(list, nums);`
 
 
+
+### 注意：
+
+在List赋值时，如果如果使用`new ArrayList<>(list)`后面括号内容来赋值的话，括号内的list不能为空，否则会报NullPointerException的错：
+
+```text
+//方式1：（可行）
+		List<Integer> list1 = null;
+		List<Integer> list2 = list1;
+
+//方式2：（不可行）
+		List<Integer> list1 = null;
+		List<Integer> list2 = new ArrayList<>(list1);
+```
 
 ## **LinkedList和ArrayList的区别：** 
 

@@ -15,6 +15,7 @@
 * [\[数据结构\] StringBuilder](shu-ju-jie-gou-stringbuilder.md)
 * [\[数据结构\] Tree](shu-ju-jie-gou-tree.md)
 * [\[数据结构\] Trie - Prefix Tree](trie-prefix-tree.md)
+* [\[数据结构\] Union Find](shu-ju-jie-gou-union-find.md)
 * [正则表达式 Regular Expression](zheng-ze-biao-da-shi-regular-expression.md)
 * [Java Math Method](java-math-method.md)
 * [Collections](collections.md)

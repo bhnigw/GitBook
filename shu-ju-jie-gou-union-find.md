@@ -16,3 +16,17 @@ description: Union Find
 `Find(x)`是寻找元素x属于哪一个set；  
 过程就是随着x的parent node一路找下去，直到找到root node；
 
+
+
+
+
+
+
+
+
+
+
+
+
+例题：[261. Graph Valid Tree](https://bhnigw.gitbook.io/leetcode/leetcode-261.-graph-valid-tree)
+

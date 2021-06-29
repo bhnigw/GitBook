@@ -13,6 +13,6 @@ description: Union Find
 
 #### Find：
 
-`Find(x)`就是寻找元素x属于哪一个set；  
-一般来说，就是随着x的parent node找下去，直到找到root node；
+`Find(x)`是寻找元素x属于哪一个set；  
+过程就是随着x的parent node一路找下去，直到找到root node；
 

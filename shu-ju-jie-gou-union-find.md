@@ -12,11 +12,12 @@ Union Find的作用/目的：
 
 
 具体实现：  
-图有n个node，假设此时n = 5；
+假设图中有n个node，给出n和edges的值：  
+`Input: n = 5, edges = [[0,1], [1,2], [2,3], [1,4], [1,3]]` 
 
+![](.gitbook/assets/tree2-graph.jpg)
 
-
-#### Make set：
+### Make set：
 
 初始化一个数组`parent[]`，用来记录每一个节点的parent node；初始值是每一个node本身的值。
 
@@ -24,9 +25,7 @@ Union Find的作用/目的：
 
 
 
-
-
-#### Find：
+### Find：
 
 `Find(x)`是寻找元素x属于哪一个set；  
 过程就是随着x的parent node一路找下去，直到找到root node；
@@ -36,34 +35,65 @@ Union Find的作用/目的：
 
     public int find(int node) {
         while (node != parent[node]) { 
-            node = parent[node];
+            node = parent[node]; 
         }
+        //随着parent node一路找下去，直到node等于parent[]
         
         return node;
     }
 ```
 
-#### Union：
+
+
+### Union：
 
 有两个set，A和B，`Union(A, B)`过程就是把A和B取并集：`A⋃B`；  
 融合变为一个set；
 
-
-
 ```text
     public boolean union(int nodeA, int nodeB) {
-        int rootA = find(nodeA); 
+        int rootA = find(nodeA); //用find找到每一个点的root
         int rootB = find(nodeB);
         
-        if (rootA == rootB) return false; // 检测到Cycle
+        if (rootA == rootB) return false; // 如果两root相等，说明检测到Cycle
         
-        parent[rootA] = rootB; //融合变为一个set
+        parent[rootA] = rootB; //不相等，则融合变为一个set
         
         return true;
     }
 ```
 
-#### 
+
+
+详细图解：`edges = [[0,1], [1,2], [2,3], [1,4], [1,3]]` 
+
+第一步：`union(0, 1)`，用find\(\)找到rootA和rootB，判断其是否相等，若不等，则把两个节点union成一个set，具体实现是更新parent数组：`parent[rootA] = rootB`
+
+![](.gitbook/assets/img_6367.jpg)
+
+
+
+第二步：`union(1, 2)`，用find\(\)找到rootA和rootB，判断其是否相等，若不等，则把两个节点union成一个set，具体实现是更新parent数组：`parent[rootA] = rootB`
+
+![](.gitbook/assets/img_6368.jpg)
+
+
+
+第三步：`union(2, 3)`，用find\(\)找到rootA和rootB，判断其是否相等，若不等，则把两个节点union成一个set，具体实现是更新parent数组：`parent[rootA] = rootB`
+
+![](.gitbook/assets/img_6369.jpg)
+
+
+
+第四步：`union(1, 4)`，用find\(\)找到rootA和rootB，判断其是否相等，若不等，则把两个节点union成一个set，具体实现是更新parent数组：`parent[rootA] = rootB`
+
+![](.gitbook/assets/img_6371.jpg)
+
+
+
+第五步：`union(1, 3)`，用find\(\)找到rootA和rootB，这里rootA和rootB值相等都为4，说明出现了cycle：
+
+![](.gitbook/assets/img_6372.jpg)
 
 
 

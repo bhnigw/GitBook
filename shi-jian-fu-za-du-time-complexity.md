@@ -1,5 +1,7 @@
 # 时间复杂度 Time complexity
 
+●`Arrays.sort(Object[])`：O\(n logn\)
+
 ●DFS：  
 时间为DFS的最大深度，也就是能够reach到图的最深处的那条路径的长度。  
 假设有n个node，构成一个图，进行DFS，那么worst case就是所有的node构成一条直线图；  
@@ -23,6 +25,12 @@
 
 如果有n个node，那么时间复杂度就为\(\(n - 1\) + 1\) \* n /2 （首项加末项乘以项数除以二）  
 也就是`O(n^2)`
+
+
+
+
+
+
 
 
 

@@ -16,7 +16,7 @@ description: Backtrack，Recursive
 
 ### 典型例子：
 
-例1：求子集[Generate all subsets](https://bhnigw.gitbook.io/leetcode/leetcode-78.-subsets)：
+#### 例1：求子集[Generate all subsets](https://bhnigw.gitbook.io/leetcode/leetcode-78.-subsets)：
 
 在往回back track的时候，要去掉current subset的末尾的元素：
 
@@ -24,7 +24,7 @@ description: Backtrack，Recursive
 
 
 
-例2：有向图中检查环 [Detect cycle in a directed graph](https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/detect-cycle-in-a-directed-graph)：
+#### 例2：有向图中检查环 [Detect cycle in a directed graph](https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/detect-cycle-in-a-directed-graph)：
 
 走过的节点在`visited[]`里标记为true，在往回back track的时候，要变回false；
 

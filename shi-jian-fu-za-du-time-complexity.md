@@ -1,6 +1,6 @@
 # 时间复杂度 Time complexity
 
-●`Arrays.sort(Object[])`：O\(n logn\)
+●`Arrays.sort(Object[])`：O\(nlogn\)
 
 ●DFS：  
 时间为DFS的最大深度，也就是能够reach到图的最深处的那条路径的长度。  

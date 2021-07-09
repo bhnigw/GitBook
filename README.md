@@ -1,4 +1,4 @@
-# String, Character, Integer之间的互相转换：
+# String, Character, Integer之间的互相转换
 
 ## 单个Character和Integer之间的互相转换：
 

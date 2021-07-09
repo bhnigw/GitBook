@@ -4,7 +4,39 @@ description: array，char array
 
 # \[数据结构\] Array
 
-#### 一些Syntax：
+### 数组初始化后，内存空间对该数组的默认值：
+
+基本数据类型的整数类型（byte、short、int、long）**默认值是0；** 
+
+基本数据类型的布尔类型（boolean）**默认值是false；** 
+
+基本数据类型的浮点类型（float、double）默认值是0.0； 
+
+基本数据类型的字符类型（char）默认值是'\u0000'； 
+
+类型的引用类型（类、数组、接口、String）默认值是null；
+
+
+
+### 初始化方式： 
+
+#### 一.静态初始化：初始化时人为指定每个数组元素的初始值，由系统决定数组的长度； 
+
+示例1：   
+`int[] nums;   
+nums = new int[]{1, 6, 3, 4, 5, 9};` 
+
+示例2：  
+`String[] str = {"aaa", "bbb", "ccc"};`
+
+#### 二.动态初始化：初始化时人为指定数组的长度，由系统初始化每个数组元素的默认值；
+
+示例：   
+`int[] nums = new int[10];` 此时数组所有元素默认值为0
+
+
+
+### 一些Syntax：
 
 ●`Arrays.sort()`：升序排列，sort in ascending order；
 

@@ -16,7 +16,7 @@ description: 'Set, HashSet'
 
 ### **核心的Syntax:**
 
-★**`set.add()`**: 加入一个值；同时，add\(\)方法也会返回一个boolean值，如果要加入的值是set里没有的就返回true，如果要加入的值set里已经有了，就返回false；  
+★**`set.add()`**: 加入一个值；同时，add\(\)方法也会返回一个boolean值，如果要加入的值是set里没有的就返回true，如果要加入的值set里已经有了，就返回false；\(见下面例子\)  
 **相当于add\(\)方法就已经包含了contains\(\)方法❗️❗️**
 
 ★**`set.contains(Object o)`**: 判断set里是否有这个值，有就return true 

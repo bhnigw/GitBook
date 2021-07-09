@@ -16,15 +16,29 @@ description: 'Set, HashSet'
 
 ### **核心的Syntax:**
 
-●`set.add()`: 加入一个值 
-
-●`set.remove(Object o)`: 去掉set里某个值 
+★**`set.add()`**: 加入一个值；同时，add\(\)方法也会返回一个boolean值，如果要加入的值是set里没有的就返回true，如果要加入的值set里已经有了，就返回false；  
+**相当于add\(\)方法就已经包含了contains\(\)方法❗️❗️**
 
 ★**`set.contains(Object o)`**: 判断set里是否有这个值，有就return true 
+
+●`set.remove(Object o)`: 去掉set里某个值 
 
 ●`set.size()`: 返回set的size，是int值 
 
 
+
+示例：
+
+```text
+    Set<Integer> set = new HashSet<>();
+		
+		set.add(1);
+		set.add(2);
+		set.add(3);
+		set.add(4);
+
+		System.out.println(set.add(4)); //这里会返回false
+```
 
 #### 其他Syntax：
 

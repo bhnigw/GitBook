@@ -187,7 +187,7 @@ String str = new String(JavaCharArray);`
 
 ![](.gitbook/assets/screen-shot-2021-07-08-at-9.40.47-pm.png)
 
-
+对于一些关于char array的题，
 
 
 

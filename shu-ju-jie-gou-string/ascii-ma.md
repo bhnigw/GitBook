@@ -1,6 +1,6 @@
 # ASCII码
 
-![](.gitbook/assets/screen-shot-2021-07-08-at-9.40.47-pm.png)
+![](../.gitbook/assets/screen-shot-2021-07-08-at-9.40.47-pm.png)
 
 
 

@@ -23,11 +23,14 @@ System.out.println(25 / 10);  //结果为2
 
 ### 求余（Modulo "%"）：
 
+就是字面上的意思，求余数。并不限定于正整数。
+
 例子：
 
 ```text
 System.out.println(1 % 3);    //结果为1
 System.out.println(25 % 10);  //结果为5
+System.out.println(4.5 % 3);  //结果为1.5
 ```
 
 

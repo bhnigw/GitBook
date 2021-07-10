@@ -81,6 +81,8 @@ String str = new String(JavaCharArray);`
 
 ## 两个character相加减是什么意思：
 
+对于Character来说，可以作为index直接放进数组。
+
 两个char相加：
 
 

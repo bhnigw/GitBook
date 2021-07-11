@@ -114,7 +114,7 @@ public void deleteNode(int val) {
 
 ## 基础必会：如何reverse一个LinkedList
 
-[https://app.gitbook.com/@bhnigw/s/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list](https://app.gitbook.com/@bhnigw/s/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list)
+[https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list](https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list)
 
 Follow up: 
 

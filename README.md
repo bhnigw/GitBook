@@ -10,9 +10,9 @@
 
 
 
-#### **2️⃣**  ★**Integer 转化为➔ Character:**
+#### **2️⃣  Integer 转化为➔ Character:**
 
-* 使用：**`char ch = (char)(num + '0');`**找ASCII code中的位置差，**注意是加**，因为字符'0'的位置index，加上数值num，得出的数字就是字符ch应该在的位置index
+★ 使用：**`char ch = (char)(num + '0');`**找ASCII code中的位置差，**注意是加**，因为字符'0'的位置index，加上数值num，得出的数字就是字符ch应该在的位置index
 
 
 

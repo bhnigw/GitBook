@@ -38,6 +38,7 @@ description: 'Set, HashSet'
 		set.add(4);
 
 		System.out.println(set.add(3)); //这里会返回false
+		System.out.println(set.add(5)); //这里会返回true
 ```
 
 #### 其他Syntax：

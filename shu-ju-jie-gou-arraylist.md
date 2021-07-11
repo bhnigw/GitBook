@@ -50,16 +50,16 @@ Collections.addAll(list, nums);`
 
 
 
-### 注意：
+### ⚠️  注意：
 
 在List赋值时，如果如果使用`new ArrayList<>(list)`后面括号内容来赋值的话，括号内的list不能为空，否则会报NullPointerException的错：
 
 ```text
-//方式1：（可行）
+//方式1：（可行）✅
 		List<Integer> list1 = null;
 		List<Integer> list2 = list1;
 
-//方式2：（不可行）
+//方式2：（不可行）❌
 		List<Integer> list1 = null;
 		List<Integer> list2 = new ArrayList<>(list1);
 ```
@@ -74,15 +74,15 @@ Collections.addAll(list, nums);`
 
 其他Syntax:
 
-`Collections.sort(res)`：给list排序  
-`Collections.reverse(res)`：将list翻转/倒序。注意：reverse只能反转一个list不能用于array，如果想要用于array就要使用Arrays.asList\(\)方法。  
-`res.add(index i, 元素)`：把指定的元素加入到指定的位置i上去，如果i上已经有元素了，那么i本身和i之后的所以元素都向后顺移一位，list的size增大一;  
-`res.set(index i, 元素)`：把list里第i个元素**替换/跟新**成新的指定元素;  
-`res.isEmpty()  
-res.indexOf()  
-res.contains(“ ”)  
-res.clear()`：清除list里所有元素  
-`Collections.nCopies(int n,  Object)`：在长为n的list中，使object复制出现n次；
+●`Collections.sort(res)`：给list排序  
+●`Collections.reverse(res)`：将list翻转/倒序。注意：reverse只能反转一个list不能用于array，如果想要用于array就要使用Arrays.asList\(\)方法。  
+●`res.add(index i, 元素)`：把指定的元素加入到指定的位置i上去，如果i上已经有元素了，那么i本身和i之后的所以元素都向后顺移一位，list的size增大一;  
+●`res.set(index i, 元素)`：把list里第i个元素**替换/跟新**成新的指定元素;  
+●`res.isEmpty()`  
+●`res.indexOf()`  
+●`res.contains(“ ”)`  
+●`res.clear()`：清除list里所有元素  
+●`Collections.nCopies(int n,  Object)`：在长为n的list中，使object复制出现n次；
 
 
 

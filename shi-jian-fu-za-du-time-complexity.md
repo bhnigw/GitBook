@@ -1,5 +1,9 @@
 # 时间复杂度 Time complexity
 
+![](.gitbook/assets/mypic.png)
+
+
+
 ●`Arrays.sort(Object[])`：O\(nlogn\)
 
 ●DFS：  

@@ -29,7 +29,7 @@ description: HashMap
 
 ★`map.getOrDefault(key, 初始value)`: 如果map里有这个key那就返回它对应的value，如果没有这个key则给它一个初始的value对应这个key
 
-●`map.containsKey(key)`：是一个boolean值，map里有这个key就返回true 
+●`map.containsKey(key)`：如果map里含有这个key，就返回true 
 
 
 

@@ -50,16 +50,16 @@ Collections.addAll(list, nums);`
 
 
 
-### 注意：
+### ⚠️  注意：
 
 在List赋值时，如果如果使用`new ArrayList<>(list)`后面括号内容来赋值的话，括号内的list不能为空，否则会报NullPointerException的错：
 
 ```text
-//方式1：（可行）
+//方式1：（可行）✅
 		List<Integer> list1 = null;
 		List<Integer> list2 = list1;
 
-//方式2：（不可行）
+//方式2：（不可行）❌
 		List<Integer> list1 = null;
 		List<Integer> list2 = new ArrayList<>(list1);
 ```

@@ -23,25 +23,27 @@ description: HashMap
 
 ### **核心的Syntax：** 
 
-●`map.put(key, value)`: 写入，把value加入进去，对应某个key 
+★`map.put(key, value)`: 写入，把value加入进去，对应某个key 
 
-●`map.get(key)`: 取值，取出key所对应的那个value 
+★`map.get(key)`: 取值，取出key所对应的那个value 
 
-●**`map.getOrDefault(key, 初始value)`**: 如果map里有这个key那就返回它对应的value，如果没有这个key则给它一个初始的value对应这个key
+★`map.getOrDefault(key, 初始value)`: 如果map里有这个key那就返回它对应的value，如果没有这个key则给它一个初始的value对应这个key
 
-●`map.remove(key)`：移除这个key，且和它对应的value
+●`map.containsKey(key)`：是一个boolean值，map里有这个key就返回true 
+
+
 
 
 
 其他Syntax：
+
+●`map.remove(key)`：移除这个key，且和它对应的value
 
 ●`map.keySet()`：返回map里所有的keys，放在一个**set**里
 
 ●`map.values()`: 返回map里所有的values
 
 ●`map.size()`：返回map的size，也就是有多少个key-value pair
-
-`map.containsKey(key)`：是一个boolean值，map里有这个key就返回true 
 
 `map.containsValue(value)`：也是一个boolean 值，map里有这个value就返回true 
 

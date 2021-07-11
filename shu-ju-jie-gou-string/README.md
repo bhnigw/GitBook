@@ -79,11 +79,21 @@ String str = new String(JavaCharArray);`
 
 
 
-## 两个character相加减是什么意思？
+## 两个character相加减是什么意思：
 
-char字符变量是可以进行加减运算的，在运算的时候，我们通过查找对应字符变量值的ASCII值，利用其在ASCII里的对应值进行加减运算。
+对于Character来说，可以作为index直接放进数组。
 
-详情点击查看[ASCII相关知识](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-string/ascii-ma)；
+两个char相加：
+
+
+
+数字和char相加：
+
+
+
+如何把index转化为char：
+
+
 
 
 

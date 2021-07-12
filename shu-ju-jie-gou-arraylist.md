@@ -25,6 +25,12 @@ description: 'ArrayList, Array, LinkedList'
 
 
 
+### 怎样sort一个ArrayList？
+
+★ `Collections.sort(list);`
+
+
+
 ### **ArrayList 怎样转化为➔ Array:**
 
 方法1：使用**`res.toArray();`    \(**方法2：遍历法；一个个get\(\)，依次加到array\)

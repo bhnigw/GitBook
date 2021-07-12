@@ -28,5 +28,5 @@
 * [空间复杂度 Space complexity](kong-jian-fu-za-du-space-complexity.md)
 * [正则表达式 Regular Expression](zheng-ze-biao-da-shi-regular-expression.md)
 * [Collections](collections.md)
-* [一些词汇](yi-xie-ci-hui.md)
+* [零碎小知识 & 一些词汇](yi-xie-ci-hui.md)
 

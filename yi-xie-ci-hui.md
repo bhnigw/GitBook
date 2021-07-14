@@ -1,4 +1,12 @@
-# 零碎小知识 & 一些词汇
+# 零碎小知识 & 英语词汇
+
+`exponential` adj. 指数的； exponential function 指数函数
+
+`exponent` n. 指数，幂
+
+`increase exponentially`呈指数增长
+
+
 
 二进制：Binary
 

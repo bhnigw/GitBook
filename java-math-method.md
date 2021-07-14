@@ -8,9 +8,9 @@
 
 ★`Math.pow(a, b)`：次方，a是底数base，b是指数exponent
 
-●`Math.abs(-4.7)`：取绝对值；
-
 ●`Math.sqrt(81)`：求平方根
+
+●`Math.abs(-4.7)`：取绝对值
 
 
 

@@ -33,13 +33,13 @@ System.out.println(25 % 10);  //结果为5
 System.out.println(4.5 % 3);  //结果为1.5
 ```
 
-应用1：判断奇偶
 
-`return count % 2 == 0 ? 1 : -1;`  //意思是count为偶数返回1，奇数返回-1
 
 
 
 例题：
+
+
 
 [171. Excel Sheet Column Number](https://bhnigw.gitbook.io/leetcode/leetcode-171.-excel-sheet-column-number)
 

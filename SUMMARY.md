@@ -17,7 +17,7 @@
 * [\[数据结构\] Tree](shu-ju-jie-gou-tree.md)
 * [\[数据结构\] Trie - Prefix Tree](trie-prefix-tree.md)
 * [\[数据结构\] Union Find](shu-ju-jie-gou-union-find.md)
-* [Java Math Method](java-math-method.md)
+* [\[数学方法\] Java Math Method](java-math-method.md)
 * [Division "/"  and Modulo "%"](division-and-modulo.md)
 * [DFS模版](dfs-mo-ban.md)
 * [BFS模版](bfs-mo-ban.md)

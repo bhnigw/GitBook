@@ -95,7 +95,7 @@ char字符变量是可以进行加减运算的，在运算的时候，我们通�
 
 ●`str.tocharArray()`：把str转化为一个char\[ \] array
 
-●`str.isEmpty()`：判断str是否为空
+●`str.isEmpty()`：判断是否是empty string，如果string的长度为0，返回true；长度大于0，返回false； ⚠️  如果string是null的话，会报错NullPointerException；
 
 ●`str.contains(subStr)`：如果str里包含某段subStr就返回true
 

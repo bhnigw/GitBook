@@ -14,7 +14,7 @@ description: 'StringBuilder, StringBuffer'
 
 
 
-**核心的Syntax:**
+### **核心的Syntax:**
 
 ★`sb.append(element)`：把element加到str里；可以是String, Character, boolean... 
 

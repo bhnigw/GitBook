@@ -16,9 +16,9 @@ description: 'StringBuilder, StringBuffer'
 
 **核心的Syntax:**
 
-●`sb.append(element)`：把element加到str里；可以是String, Character, boolean... 
+★`sb.append(element)`：把element加到str里；可以是String, Character, boolean... 
 
-●`sb.reverse()`：把所有的characters颠倒 
+★`sb.reverse()`：把所有的characters颠倒 
 
 ●`sb.length()`：返回长度
 
@@ -29,6 +29,8 @@ description: 'StringBuilder, StringBuffer'
 其他Syntax:
 
 ●`sb.deleteCharAt(int index)`：删掉该index的字符 
+
+●`sb.insert(index, ch)`：把字符ch插入到指数为index的地方去
 
 `sb.delete(int start, int end)`：删掉这段字符，start index包括，end index不包括；
 

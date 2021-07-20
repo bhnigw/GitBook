@@ -16,7 +16,7 @@ Extended ASCII 码使用8位二进制数组合来表示256个字符。比Standar
 char字符变量可以进行加减运算，在运算的时候，通过查找char字符对应的的ASCII值，然后用ASCII里的对应值进行加减运算。
 
 {% hint style="success" %}
-#### **可以简单理解为：字符相加减就是ASCII中对应的index相加减；**
+### 可以简单理解为：字符相加减就是ASCII中对应的index相加减；
 {% endhint %}
 
 例1：  
@@ -118,8 +118,6 @@ char字符变量可以进行加减运算，在运算的时候，通过查找char
 			ascii[ch]++;             //char字符作为index直接放进数组
 		}
 ```
-
-
 
 
 

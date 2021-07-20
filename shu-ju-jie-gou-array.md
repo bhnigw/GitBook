@@ -46,9 +46,7 @@ nums = new int[]{1, 6, 3, 4, 5, 9};`
 
 
 
-{% hint style="danger" %}
-#### 注意：`Arrays.sort()`方法本身的return type是void，它只排序数组，并不返回任何东西，所以不能用它来赋值；
-{% endhint %}
+#### ⚠️  注意：`Arrays.sort()`方法本身的return type是void，它只排序数组，并不返回任何东西，所以不能用它来赋值；
 
 #### 以下写法都是错误的：
 

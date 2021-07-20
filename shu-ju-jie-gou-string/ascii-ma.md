@@ -15,17 +15,20 @@ Extended ASCII 码使用8位二进制数组合来表示256个字符。比Standar
 
 char字符变量可以进行加减运算，在运算的时候，通过查找char字符对应的的ASCII值，然后用ASCII里的对应值进行加减运算。
 
-●**可以简单理解为：字符加减就是ASCII中对应的index相加减；**
+{% hint style="success" %}
+#### **可以简单理解为：字符相加减就是ASCII中对应的index相加减；**
+{% endhint %}
 
 例1：  
-`char a = '1';`                           //字符'1'对应049  
-`char b = '2';`                           //字符'2'对应050  
-`System.out.println(a + b);` //这里会输出99
+`System.out.println('D' + 3);` //输出71，因为字符`'D'`对应068，相加68 + 3 = 71
 
 例2：  
-`char a = '3';`                           //字符'3'对应051  
-`char b = 'D';`                           //字符'D'对应068  
-`System.out.println(a + b);` //这里会输出119
+`System.out.println('a' + 'G');` //输出168，因为字符`'a'`对应097，字符`'G'`对应071
+
+例3：  
+`System.out.println('1' + '2');` //输出99，因为字符`'1'`对应049，字符`'2'`对应050
+
+
 
 
 
@@ -56,9 +59,9 @@ char字符变量可以进行加减运算，在运算的时候，通过查找char
 可以理解为：字符`'0'`对应的index，加上整数num，就是num对应的数字字符在ACSII中的index；  
 
 
-
-
-#### 前情提要：char字符可以作为index直接放进数组❗️
+{% hint style="info" %}
+#### 前情提要：char字符可以作为index直接放进数组
+{% endhint %}
 
 ```text
     int[] ascii = new int[128];

@@ -44,7 +44,7 @@ public class ListNode {
 
 ★方法二：**Two pointer，**空间是O\(1\)；使用快慢指针，即采用两个指针fast和slow，slow每次移动一步而fast每次移动两步。当fast和slow第一次相遇时，证明链表有环。
 
-详细：[https://bhnigw.gitbook.io/leetcode/](https://bhnigw.gitbook.io/leetcode/)
+详细：[https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-142.-linked-list-cycle-ii](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-142.-linked-list-cycle-ii)
 
 
 

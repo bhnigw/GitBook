@@ -1,2 +1,2 @@
-# Lambda Expressions
+# Lambda Expression
 

@@ -26,7 +26,7 @@
 * [关于Test Case](guan-yu-test-case.md)
 * [时间复杂度 Time complexity](shi-jian-fu-za-du-time-complexity.md)
 * [空间复杂度 Space complexity](kong-jian-fu-za-du-space-complexity.md)
-* [Lambda Expressions](lambda-expressions.md)
+* [Lambda Expression](lambda-expressions.md)
 * [Regular Expression 正则表达式](zheng-ze-biao-da-shi-regular-expression.md)
 * [Collections](collections.md)
 * [零碎小知识 & 英语词汇](yi-xie-ci-hui.md)

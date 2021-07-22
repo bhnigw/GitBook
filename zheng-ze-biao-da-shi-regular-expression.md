@@ -2,7 +2,7 @@
 description: Regular Expression
 ---
 
-# Regular Expression 正则表达式
+# 正则表达式 Regular Expression
 
 
 

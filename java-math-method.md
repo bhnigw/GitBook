@@ -1,4 +1,4 @@
-# Java Math Method
+# \[数学方法\] Java Math Method
 
 ## Java Math Method
 
@@ -6,11 +6,11 @@
 
 ●`Math.min(23.1, 19)`：返回二者中最小的数
 
-●`Math.abs(-4.7)`：取绝对值；
-
-●`Math.pow(a, b)`：次方，a是底数base，b是指数exponent
+★`Math.pow(a, b)`：次方，a是底数base，b是指数exponent
 
 ●`Math.sqrt(81)`：求平方根
+
+●`Math.abs(-4.7)`：取绝对值
 
 
 

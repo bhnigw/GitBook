@@ -6,7 +6,7 @@ description: Tree
 
 ## Tree的概念和性质
 
-树是一种无向图（undirected graph），其中任意两个顶点间存在唯一一条路径。也就是说，只要没有cycle/loop就是树。树图广泛应用于各种数据结构，比如Binary Search Tree，Heap，Trie Tree以及数据压缩中的霍夫曼树等。
+树是一种无向图（undirected graph），其中任意两个顶点间存在唯一一条路径。
 
 {% hint style="info" %}
 **一个graph能称作是一个tree，那么它必须满足以下条件/具有以下特点：**
@@ -52,7 +52,7 @@ public class TreeNode {
 
 
 
-Binary Search Trees
+### Binary Search Trees
 
 
 

@@ -30,11 +30,7 @@ description: 'Queue, LinkedList'
 
 `qName.remove()`：**取出并返回**queue的第一个元素。 
 
-{% hint style="warning" %}
-**`poll()`和`remove()`的区别**：功能是一样的，区别体现在queue为空的时候，remove\(\) 会报NoSuchElementException的错，但是poll\(\)会返回null，所以一般用poll\(\)更好。
-{% endhint %}
-
-
+poll\(\)和remove\(\)的区别：功能是一样的，区别体现在queue为空的时候：remove\(\) 会报NoSuchElementException的错，但是poll\(\)会返回null，所以一般用poll\(\)更好
 
 
 

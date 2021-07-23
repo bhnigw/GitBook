@@ -47,7 +47,8 @@ public class TreeNode {
 
 ```
 
-第6行的操作是什么意思
+第6行的操作是什么意思？  
+意思是：可以进行没有参数的初始化。没有这句的话，初始化就必须`TreeNode t = new TreeNode(3)`；有了这句就可以`TreeNode t = new TreeNode()`；
 
 
 

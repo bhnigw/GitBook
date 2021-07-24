@@ -17,6 +17,8 @@
   * [前序遍历 Pre-order traversal](shu-ju-jie-gou-tree/qian-xu-bian-li-preorder-traversal.md)
   * [中序遍历 In-order traversal](shu-ju-jie-gou-tree/zhong-xu-bian-li-inorder-traversal.md)
   * [后序遍历 Post-order traversal](shu-ju-jie-gou-tree/hou-xu-bian-li-postorder-traversal.md)
+  * [层序遍历 Level Order Traversal](shu-ju-jie-gou-tree/ceng-xu-bian-li-level-order-traversal.md)
+* [\[数据结构\] Heaps](shu-ju-jie-gou-heaps.md)
 * [\[数据结构\] StringBuilder](shu-ju-jie-gou-stringbuilder.md)
 * [\[数据结构\] Trie - Prefix Tree](trie-prefix-tree.md)
 * [\[数据结构\] Union Find](shu-ju-jie-gou-union-find.md)

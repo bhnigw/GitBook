@@ -22,8 +22,6 @@ description: Tree
 
 **二叉树Binary trees**：每个节点至多含有两个子树的树称为二叉树；
 
-
-
 ### ★**Binary tree二叉树**的构造方法：背下来❗️❗️❗️
 
 ```text
@@ -52,11 +50,46 @@ public class TreeNode {
 
 
 
-## Binary Search Trees
+## Binary Search Trees（BST）
 
-对于每一个节点，它的左子树上**所有节点**全都小于它的根节点的值；root的右子树不空，则右子树上所有节点的值均大于它的根节点的值；
+Binary Search Tree的定义如下：（一句话概括是「左小右大」）
 
-how to add new node to a binary search tree？
+对于树上任意节点node：  
+1. node 的左子树**「所有」**结点一定小于 node 值；  
+2. node 的右子树**「所有」**结点一定大于 node 值；  
+3. node 的左、右子树均为Binary Search Tree；
+
+Binary Search Tree的优势在于**时间复杂度较低**，search、insert、delete的时间复杂度等于树的高度也就是`O(logn)`，最坏的情况是`O(n)`。（worst case是数列已经sorted，树退化成高度为n的一条线）
+
+
+
+BST的Insert算法
+
+BST的Delete算法
+
+BST的Search算法
+
+
+
+## 树的遍历
+
+[前序 Pre-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/qian-xu-bian-li-preorder-traversal)：根→左→右
+
+[中序 In-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/zhong-xu-bian-li-inorder-traversal)：左→根→右
+
+[后序 Post-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/hou-xu-bian-li-postorder-traversal)：左→右→根
+
+[层序 Level Order](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)：每一层从左到右遍历；
+
+![](../.gitbook/assets/fd1d63037d0e2f787d2140fee406e109094a4f66ab0837a7273f8b371eef8096-1-.jpg)
+
+前序遍历：1 2 4 5 7 3 6 8 9
+
+中序遍历：4 2 7 5 1 3 8 6 9
+
+后序遍历：4 7 5 2 8 9 6 3 1
+
+层序遍历：1 2 3 4 5 6 7 8 9
 
 
 
@@ -64,11 +97,11 @@ Perfect Trees and Almost Complete Trees
 
 
 
-Heaps \(min-heaps and max-heaps\)
+### 怎样区分Queue中的结点来自哪一层？
+
+[点击看详细解析](https://app.gitbook.com/@bhnigw/s/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)
 
 
 
 
-
-怎样区分Queue中的结点来自哪一层？
 

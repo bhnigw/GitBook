@@ -93,7 +93,27 @@ BST的Search算法
 
 
 
-Perfect Trees and Almost Complete Trees
+## Perfect Binary Tree & Almost Complete Tree & Full Binary Tree
+
+● `Leaf 叶子节点`：Leaf is a node that has no children；也就是终端结点。
+
+● **`Perfect Binary Tree 完美二叉树`**：所有非Leaf结点都有两个child，且所有的Leaf都在同一水平线。
+
+![](../.gitbook/assets/img_6434.jpg)
+
+
+
+● **`Complete Tree 完全二叉树`**：从root至倒数第二层，满足Perfect Binary Tree，最后一层的Leaf可以不完全填充，但是Leaf必须靠左对齐。
+
+![](../.gitbook/assets/img_6432.jpg)
+
+
+
+● **`Full Binary Tree 完满二叉树`**：所有非Leaf结点都有两个child，Leaf不必在同一层。（只要你有child，就必然是有两个child）
+
+![](../.gitbook/assets/img_6433.jpg)
+
+
 
 
 

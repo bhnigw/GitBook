@@ -19,3 +19,7 @@ while (!queue.isEmpty()) {
 
 [https://leetcode.com/problems/as-far-from-land-as-possible/](https://leetcode.com/problems/as-far-from-land-as-possible/)
 
+[https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/bfs-de-shi-yong-chang-jing-zong-jie-ceng-xu-bian-l/)
+
+![](.gitbook/assets/01a3617511b1070216582ae59136888072116ccba360ab7c2aa60fc273351b85.jpg)
+

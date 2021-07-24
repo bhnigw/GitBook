@@ -52,7 +52,11 @@ public class TreeNode {
 
 
 
-### Binary Search Trees
+## Binary Search Trees
+
+对于每一个节点，它的左子树上**所有节点**全都小于它的根节点的值；root的右子树不空，则右子树上所有节点的值均大于它的根节点的值；
+
+how to add new node to a binary search tree？
 
 
 

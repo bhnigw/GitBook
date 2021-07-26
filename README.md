@@ -25,13 +25,7 @@
 1. ★使用：**`int num = Integer.parseInt(str);`** 返回的是int，是primitive type
 2. 使用：`Integer num = Integer.valueOf(str);` 注意Integer.valueOf\(\)返回的是object，所以要用Integer而不是int来初始化；int是primitive类型，Integer是Object。 
 
-   如果一定要用此方法，那就需要用intValue\(\)方法把Integer转化成int：`int i = num.intValue();`
-
-{% hint style="warning" %}
-Integer转int：`int i = num.intValue();`
-{% endhint %}
-
-\*\*\*\*
+   如果一定要用此方法，那就需要用intValue\(\)方法把Integer转化成int：`int i = num.intValue();`  
 
 #### **2️⃣  整数int类型转化为 ➔ String:**
 

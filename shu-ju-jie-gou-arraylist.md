@@ -17,7 +17,7 @@ description: 'ArrayList, Array, LinkedList'
 
 ●`res.add(“ ”)`：往list里面加元素加String需要引号””，加数字的话不需要; 
 
-●`res.get(index i)`：返回list中第i个元素;
+●`res.get(index i)`：返回list中第i个元素。如果位置i没有任何元素，会报错IndexOutOfBoundsException；
 
 ●`res.remove(index i)`：移除指定位置的元素;
 

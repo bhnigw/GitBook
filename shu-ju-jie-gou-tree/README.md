@@ -119,7 +119,7 @@ BST的Search算法
 
 ## 在BFS或DFS时，怎样确定结点来自tree的哪一层？
 
-[点击看详细解析](https://app.gitbook.com/@bhnigw/s/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)
+[点击看详细解析](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)
 
 
 

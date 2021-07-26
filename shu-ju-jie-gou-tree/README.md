@@ -119,6 +119,10 @@ BST的Search算法
 
 ## 在BFS或DFS时，怎样确定结点来自tree的哪一层？
 
+●如果是BFS：需要在每一层while循环开始时，记录当前queue的长度n，也就是每一层的size，然后在while里用for循环`(int i = 0; i < size; i++)`把这一层的node都poll光；
+
+●如果是DFS：需要在每次recursion的时候，都带一个整数level进去，表示当前的层数；每进入下一层，层数level就加1；
+
 [点击看详细解析](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)
 
 

@@ -46,9 +46,12 @@ public class TreeNode {
 ```
 
 第6行的操作是什么意思？  
-意思是：可以进行没有参数的初始化。没有这句的话，初始化就必须`TreeNode t = new TreeNode(3)`；有了这句就可以`TreeNode t = new TreeNode()`；
-
-
+意思是：可以进行没有参数的初始化。没有这句的话，初始化就必须`TreeNode t = new TreeNode(3)`；有了这句就可以`TreeNode t = new TreeNode()`；  
+例：  
+`TreeNode empty = new TreeNode();` 第6行的功能  
+`TreeNode left = new TreeNode(1);` 第8行的功能  
+`TreeNode right = new TreeNode(2);`  
+`TreeNode root = new TreeNode(3, left, right);` 第12行的功能
 
 ## Binary Search Trees（BST）
 

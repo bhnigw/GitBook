@@ -20,18 +20,24 @@ head指向头节点，head不存放任何的数据，只是充当一个指向链
 ## ★Singly LinkedList的内部构造方法：`背下来！！！`
 
 用一个ListNode类来充当结点的模型。  
-其中有两个属性：存放数据的data，和存放下一结点的引用Reference；
+其中有两个属性：存放数据的val，和存放下一结点的引用Reference；
 
 ```text
-public class ListNode {         
-     int data;                    //存放数据的变量，为了简单一般为int型；
-     ListNode next;            //存放结点的变量,默认为null
-     ListNode(int num) {       
-         data = num;           //构造方法，在构造时就能够给data赋值
-         next = null;
-     }   
-}
+public class ListNode {
+			int val;
+			ListNode next;
 
+			ListNode() {}
+
+			ListNode(int val) {
+				this.val = val;
+			}
+
+			ListNode(int val, ListNode next) {
+				this.val = val;
+				this.next = next;
+			}
+}
 ```
 
 详细版本：[https://github.com/bhnigw/algorithms/blob/master/src/Medium/LinkedList.java](https://github.com/bhnigw/algorithms/blob/master/src/Medium/LinkedList.java)
@@ -55,7 +61,7 @@ public static void printList(LinkedList list) {
 		Node currNode = list.head;
 
 		while (currNode != null) {
-			System.out.print(currNode.data + " ");
+			System.out.print(currNode.val + " ");
 			currNode = currNode.next;
 		}
 	}
@@ -93,13 +99,13 @@ public void deleteNode(int val) {
 		Node prev = head;
 
 		// 假如第一个就是要删除的,直接next
-		if (curr.data == val) {
+		if (curr.val == val) {
 			head = curr.next;
 			return;
 		}
 
 		// 遍历list，跳过那些值不为val的节点
-		while (curr != null && curr.data != val) {
+		while (curr != null && curr.val != val) {
 			prev = curr;
 			curr = curr.next;
 		}

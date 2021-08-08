@@ -6,7 +6,11 @@ description: 'StringBuilder, StringBuffer'
 
 概念：StringBuilder表示一个可变的字符characters序列。注意是character而不是string。可以实现对字符序列的增删改查。 
 
-**初始化**：`StringBuilder sb = new StringBuilder();` 
+### 初始化：
+
+●`StringBuilder sb = new StringBuilder();` 
+
+●`StringBuilder[] sb = new StringBuilder[n];`也可以作为一个长度为n的数组来初始化
 
 
 

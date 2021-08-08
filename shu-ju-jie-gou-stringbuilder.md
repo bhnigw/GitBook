@@ -14,7 +14,9 @@ description: 'StringBuilder, StringBuffer'
 
 
 
-❗️注意：此时初始化的sb只是一堆字符characters，如果要转化为字符串string，必须要用到**`sb.toString()`**方法。
+{% hint style="danger" %}
+注意：此时初始化的sb只是一堆字符characters，如果要转化为字符串string，必须要用到**`sb.toString()`**方法。
+{% endhint %}
 
 
 

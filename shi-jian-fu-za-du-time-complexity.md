@@ -32,15 +32,18 @@
 
 
 
-
-
-
-
-
-
 ●Union find：
 
 
+
+### 如果对一个Tree进行DFS或BFS，它的Time计算：
+
+Time：`O(N)`；
+
+解释：  
+DFS或BFS，所耗时间均为：顶点vertex总数N，加上edge总数E的总和，即`O(N + E)`；  
+根据树的特性：**如果一个tree有n个节点，那么它必然有n - 1条edges；**  
+所以，时间就是`O(N + N - 1)`；最终结果就是`O(N)`；
 
 
 

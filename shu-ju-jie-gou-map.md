@@ -86,7 +86,7 @@ print输出：
 
     
 
-### **★怎样loop遍历HashMap：**
+## **★怎样loop遍历HashMap：**
 
 1. 遍历keys：使用`map.keySet()`
 
@@ -106,9 +106,27 @@ for (String str : map.values()) {
 
 
 
-##  
 
-**HashMap与HashTable的区别：**
+
+## 如果把TreeNode加入HashMap：
+
+如果一个tree中有两个node的值相同，把它们作为key加入map会出现重复吗❓
+
+答案：不会。因为map存的是TreeNode，只是那个object的指针，根root.val没有关系。可以理解为一棵树上不存在完全一样的TreeNode。
+
+![](.gitbook/assets/img_6443.jpg)
+
+所以，  
+`map.put(node, node.val)`不会重复，是可行的；  
+`map.put(node.val, node)`会出现重复，不可行。
+
+
+
+
+
+
+
+## **HashMap与HashTable的区别：**
 
 | **HashMap** | **HashTabel** |
 | :--- | :--- |

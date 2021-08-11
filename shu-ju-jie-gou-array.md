@@ -4,15 +4,15 @@ description: array，char array
 
 # \[数据结构\] Array
 
-### 数组初始化后，内存空间对该数组的默认值：
+### 数组初始化的默认值：
 
-基本数据类型的整数类型（byte、short、int、long）**默认值是0；** 
+整数类型（byte、short、int、long）**默认值是0；** 
 
-基本数据类型的布尔类型（boolean）**默认值是false；** 
+布尔类型（boolean）**默认值是false；** 
 
-基本数据类型的浮点类型（float、double）默认值是0.0； 
+浮点类型（float、double）默认值是0.0； 
 
-基本数据类型的字符类型（char）默认值是'\u0000'； 
+字符类型（char）默认值是'\u0000'； 
 
 类型的引用类型（类、数组、接口、String）默认值是null；
 

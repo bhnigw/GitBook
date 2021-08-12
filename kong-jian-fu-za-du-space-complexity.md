@@ -1,13 +1,18 @@
 # 空间复杂度 Space complexity
 
-●如果用HashMap或者StringBuilder新建一个长度为n的东西，空间复杂度为`O(n)`；
+●如果用HashMap或者StringBuilder新建一个长度为n的东西，space为`O(n)`；
 
-●如果新建一个长度为n的数组，空间复杂度为`O(n)`；
+●如果新建一个长度为n的数组，space为`O(n)`；
 
 ●`Arrays.sort(Object[])`：O\(logn\)；
 
-●DFS：  
-空间复杂度为DFS的层数，也就是树的高度。
+
+
+### ●DFS：
+
+DFS的space空间复杂度**取决于stack的层数，也就是DFS的深度。**
+
+★对于Tree来说：**DFS的深度，就是树的高度**。如果树的形状规则，那平均时间是`O(logN)`；在worst case的情况下，树是一条向下的直线，深度为N，那么时间就是`O(N)`；
 
 
 

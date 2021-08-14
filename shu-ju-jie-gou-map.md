@@ -25,7 +25,7 @@ description: HashMap
 
 ★`map.put(key, value)`: 写入，把value加入进去，对应某个key 
 
-★`map.get(key)`: 取值，取出key所对应的那个value 
+★`map.get(key)`: 取值，取出key所对应的那个value。如果是`map.get(null)`不会报错，会返回null。
 
 ★`map.getOrDefault(key, 初始value)`: 如果map里有这个key那就返回它对应的value，如果没有这个key则给它一个初始的value对应这个key
 

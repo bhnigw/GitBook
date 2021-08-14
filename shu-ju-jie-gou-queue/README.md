@@ -20,7 +20,7 @@ description: 'Queue, LinkedList'
 
 
 
-其他Syntax:
+#### 其他Syntax:
 
 `qName.isEmpty()`：判断是否为空
 
@@ -30,9 +30,15 @@ description: 'Queue, LinkedList'
 
 `qName.remove()`：**取出并返回**queue的第一个元素。 
 
-{% hint style="warning" %}
-**`poll()`和`remove()`的区别**：功能是一样的，区别体现在queue为空的时候，remove\(\) 会报NoSuchElementException的错，但是poll\(\)会返回null，所以一般用poll\(\)更好。
-{% endhint %}
+`qName.contains(element)`：**判断**
+
+
+
+### 方法比较：
+
+●`add()`和`offer()`：功能一样，都是插入元素。区别：capacity满了后，add\(\)会报错，offer\(\)则会返回false。所以offer\(\)更优。
+
+●`remove()`和`poll()`： 功能一样，都是获取并删除队首元素。区别：queue为空的时候，remove\(\)会报NoSuchElementException的错，但是poll\(\)会返回null。所以poll\(\)更优。
 
 
 

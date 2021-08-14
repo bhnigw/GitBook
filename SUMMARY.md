@@ -10,7 +10,7 @@
 * [\[数据结构\] Stack](shu-ju-jie-gou-stack.md)
 * [\[数据结构\] Queue](shu-ju-jie-gou-queue/README.md)
   * [\[数据结构\] Deque](shu-ju-jie-gou-queue/shu-ju-jie-gou-deque.md)
-  * [\[数据结构\] PriorityQueue](shu-ju-jie-gou-queue/shu-ju-jie-gou-priorityqueue.md)
+* [\[数据结构\] PriorityQueue](shu-ju-jie-gou-priorityqueue.md)
 * [\[数据结构\] Set](shu-ju-jie-gou-set.md)
 * [\[数据结构\] HashMap](shu-ju-jie-gou-map.md)
 * [\[数据结构\] Tree](shu-ju-jie-gou-tree/README.md)

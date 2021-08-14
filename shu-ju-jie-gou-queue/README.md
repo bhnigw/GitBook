@@ -30,7 +30,7 @@ description: 'Queue, LinkedList'
 
 `qName.remove()`：**取出并返回**queue的第一个元素。 
 
-`qName.contains(element)`：**判断**
+`qName.contains(element)`：判断是否包含element这个元素，有就返回true。
 
 
 

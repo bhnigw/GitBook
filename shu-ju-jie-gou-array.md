@@ -66,7 +66,7 @@ nums = new int[]{1, 6, 3, 4, 5, 9};`
 
 `char arr2[] = new char[]{'a', 'b', 'c'};`
 
-`char arr3[]=new char[3];   
+`char arr3[] = new char[3];   
 d[0] = 'a';   
 d[1] = 'b';   
 d[2] = 'c';`

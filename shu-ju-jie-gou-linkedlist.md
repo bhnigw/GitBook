@@ -6,7 +6,7 @@ description: Singly LinkedList
 
 ## Singly LinkedList概念：
 
-![](../.gitbook/assets/screen-shot-2021-05-13-at-9.59.13-pm.png)
+![](.gitbook/assets/screen-shot-2021-05-13-at-9.59.13-pm.png)
 
   
 每一个节点包含data和next；**data存放数据，next存放下个节点的引用Reference**。  
@@ -89,7 +89,7 @@ public int length(Node head) {
 
 ## 删除某个值为val的结点：
 
-![](../.gitbook/assets/1621310834193.jpg)
+![](.gitbook/assets/1621310834193.jpg)
 
 核心：`prev.next = curr.next;`
 

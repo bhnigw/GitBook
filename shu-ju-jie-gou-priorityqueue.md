@@ -1,8 +1,8 @@
 ---
-description: PriorityQueue
+description: 'PriorityQueue, Heaps'
 ---
 
-# \[数据结构\] PriorityQueue
+# \[数据结构\] PriorityQueue / Heaps
 
 底层数据结构：Binary tree。按给定的优先级排列。
 

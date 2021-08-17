@@ -81,9 +81,16 @@ String str = new String(JavaCharArray);`
 
 ## 两个character相加减是什么意思？
 
-char字符变量是可以进行加减运算的，在运算的时候，我们通过查找对应字符变量值的ASCII值，利用其在ASCII里的对应值进行加减运算。
+char字符变量是可以进行加减运算的，在运算的时候，我们通过查找对应字符变量值的ASCII值，利用其在ASCII里的对应值进行加减运算。ASCII相关知识：
 
-详情点击查看[ASCII相关知识](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-string/ascii-ma)；
+{% page-ref page="ascii-ma.md" %}
+
+
+
+## 怎样遍历26个英文字母：
+
+`for (char ch = 'a'; ch <= 'z'; ch++) {  
+...}`
 
 
 

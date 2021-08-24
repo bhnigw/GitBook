@@ -104,6 +104,8 @@ BST的Search算法
 
 ![](../.gitbook/assets/img_6434.jpg)
 
+对于Perfect Binary Tree完美二叉树，它的Leaf节点有 **`n / 2`**个。
+
 
 
 ● **`Complete Tree 完全二叉树`**：从root至倒数第二层，满足Perfect Binary Tree，最后一层的Leaf可以不完全填充，但是Leaf必须靠左对齐。

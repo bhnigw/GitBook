@@ -25,10 +25,6 @@ DFS的space空间复杂度**取决于stack的层数，也就是DFS的深度。**
 
 #### 情况2：
 
-对二叉树Binary Tree进行BFS。BFS会用到queue，来装每一层的node。最坏的情况下，会包含所有的Leaf节点，对于Perfect Binary Tree完全二叉树，它的Leaf节点是 `n/2`个，所以时间复杂度是`O(n)`；
-
-#### 情况3：
-
 如果对一个长宽为M、N的二位数组`grid[][]`进行BFS，空间是`O(min(M, N))`，解释：
 
 ![](.gitbook/assets/taoyspz.jpeg)
@@ -38,22 +34,19 @@ DFS的space空间复杂度**取决于stack的层数，也就是DFS的深度。**
  ⇒ 也就是长方形矩阵M、N中的最小值；  
  ⇒ 所以是`O(min(M, N))`
 
-#### 
-
-
-
-### ●对于Tree：
-
-如果是BFS，空间一般是`O(n)`；  
-解释：BFS会用到queue，来装每一层的node。最坏的情况下，会包含所有的Leaf节点，对于Perfect Binary Tree完全二叉树，它的Leaf节点是 `n/2`个，所以时间复杂度是`O(n)`；
-
-如果是DFS，空间一般是`O(h)`，h是树的高度，也就是recursion的层数；
-
 
 
 
 
 ●Union find：
+
+
+
+### ●Tree：
+
+对于tree，如果是BFS，空间一般是`O(n)`，也就是node的个数；
+
+如果是DFS，空间一般是`O(h)`，h是树的高度，也就是recursion的层数；
 
 
 

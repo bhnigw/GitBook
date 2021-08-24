@@ -51,7 +51,7 @@ public class TreeNode {
 `TreeNode empty = new TreeNode();` 第6行的功能  
 `TreeNode left = new TreeNode(1);` 第8行的功能  
 `TreeNode right = new TreeNode(2);`  
-`TreeNode root = new TreeNode(3, left, right);` 第12行的功能
+`TreeNode root = new TreeNode(3, node1, node2);` 第12行的功能；意思是把root的val设为3，把node1作为根节点root的左child，把node2作为根节点root的右child。
 
 ## Binary Search Trees（BST）
 
@@ -64,13 +64,11 @@ Binary Search Tree的定义如下：（一句话概括是「左小右大」）
 
 Binary Search Tree的优势在于**时间复杂度较低**，search、insert、delete的时间复杂度等于树的高度也就是`O(logn)`，最坏的情况是`O(n)`。（worst case是数列已经sorted，树退化成高度为n的一条线）
 
+[BST的Insert算法](https://bhnigw.gitbook.io/leetcode/leetcode/binary-search-tree/cha-ru-insert)
 
+[★BST的Delete算法](https://bhnigw.gitbook.io/leetcode/leetcode/binary-search-tree/shan-chu-delete)
 
-BST的Insert算法
-
-BST的Delete算法
-
-BST的Search算法
+[BST的Search算法](https://bhnigw.gitbook.io/leetcode/leetcode/binary-search-tree/cha-zhao-search)
 
 
 

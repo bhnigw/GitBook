@@ -58,11 +58,13 @@ public class TreeNode {
 Binary Search Tree的定义如下：（一句话概括是「左小右大」）
 
 对于树上任意节点node：  
-1. node 的左子树**「所有」**结点一定小于 node 值；  
-2. node 的右子树**「所有」**结点一定大于 node 值；  
+1. node 的左子树**「所有」**结点都小于 node 值；  
+2. node 的右子树**「所有」**结点都大于 node 值；  
 3. node 的左、右子树均为Binary Search Tree；
 
 Binary Search Tree的优势在于**时间复杂度较低**，search、insert、delete的时间复杂度等于树的高度也就是`O(logn)`，最坏的情况是`O(n)`。（worst case是数列已经sorted，树退化成高度为n的一条线）
+
+如果对Binary Search Tree进行中序遍历Inorder Traversal，那么输出的结果就是sorted。
 
 [BST的Insert算法](https://bhnigw.gitbook.io/leetcode/leetcode/binary-search-tree/cha-ru-insert)
 

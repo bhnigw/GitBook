@@ -138,5 +138,7 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 [863. All Nodes Distance K in Binary Tree](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-863.-all-nodes-distance-k-in-binary-tree)
 
+[572. Subtree of Another Tree](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-572.-subtree-of-another-tree)
+
 
 

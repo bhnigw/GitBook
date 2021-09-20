@@ -16,8 +16,8 @@
 
 
 
-●`ListNode node;`  
-  `PriorityQueue pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`  
+●`Node node;`  
+  `PriorityQueue<Node> pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`  
 意思是：根据ListNode的val值，构建min Heap，它的Heap堆顶会存放val值最小的node。
 
 

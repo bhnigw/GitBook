@@ -22,3 +22,9 @@
 
 
 
+●`String[] words;`  
+  `Arrays.sort(words, (a,b)-> a.length()-b.length());` // Sort the words based on their lengths  
+意思是：根据words数组里每个单词的长度，把单词从小到大排序。
+
+
+

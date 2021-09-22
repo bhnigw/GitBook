@@ -29,3 +29,14 @@ Input是char array：
 
 
 
+## Input是TreeNode：
+
+如果是非常大的input怎么办？有两种方案：
+
+1. 核心思想都是partition。仅处理左子树，然后把结果存到一边，然后处理右子树，把结果存到一边，最后把结果merge。
+2. 分层处理，最后把结果merge
+
+
+
+
+

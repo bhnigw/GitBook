@@ -78,11 +78,11 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 ## 树的遍历
 
-前序 Pre-order：根→左→右（Top down）
+[前序 Pre-order](https://bhnigw.gitbook.io/1/shu-ju-jie-gou-tree/qian-xu-bian-li-preorder-traversal)：根→左→右（Top down）
 
-[中序 In-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/zhong-xu-bian-li-inorder-traversal)：左→根→右
+[中序 In-order](https://bhnigw.gitbook.io/1/shu-ju-jie-gou-tree/zhong-xu-bian-li-inorder-traversal)：左→根→右
 
-[后序 Post-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/hou-xu-bian-li-postorder-traversal)：左→右→根 （**Bottom up**）
+[后序 Post-order](https://bhnigw.gitbook.io/1/shu-ju-jie-gou-tree/hou-xu-bian-li-postorder-traversal)：左→右→根 （**Bottom up**）
 
 [层序 Level Order](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)：每一层从左到右遍历；
 

@@ -1,8 +1,8 @@
 ---
-description: 'PriorityQueue, Heaps'
+description: PriorityQueue, Heaps
 ---
 
-# \[数据结构\] PriorityQueue / Heaps
+# \[数据结构] PriorityQueue / Heaps
 
 底层数据结构：Binary tree。按给定的优先级排列。
 
@@ -22,15 +22,13 @@ description: 'PriorityQueue, Heaps'
 
 ●`pq.remove(element)`：删去等于element的元素，如果有多个相等，只删除一个。时间：`O(n)`；
 
- 
+&#x20;
 
 ## Min Heap 最小堆
 
-●`ListNode node;`  
-  `PriorityQueue pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`  
+●`ListNode node;`\
+&#x20; `PriorityQueue<ListNode> pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`\
 意思是：根据ListNode的val值，构建min Heap，它的Heap堆顶会存放val值最小的node。
-
-
 
 
 

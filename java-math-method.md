@@ -1,4 +1,4 @@
-# \[数学方法\] Java Math Method
+# \[数学方法] Java Math Method
 
 ## Java Math Method
 
@@ -14,11 +14,11 @@
 
 
 
-★`Integer.MAX_VALUE`：Integer类型最大值，也就是2 ^ 31 - 1 = 2147483647 
+★`Integer.MAX_VALUE`：Integer类型最大值，也就是2 ^ 31 - 1 = 2147483647&#x20;
 
 ★`Integer.MIN_VALUE`：Integer类型最小值，也就是 - 2 ^ 31 = - 2147483648
 
-●`Long.MAX_VALUE`：Long类型最大值，也就是2 ^ 63 - 1 
+●`Long.MAX_VALUE`：Long类型最大值，也就是2 ^ 63 - 1&#x20;
 
 ●`Long.MIN_VALUE`：Long类型最小值，也就是 - 2 ^ 63
 
@@ -30,6 +30,5 @@
 
 ●`nextInt(a)`：随机产生一个0～a之间的整数，不包括a；
 
-例：`Random rand = new Random();   
-int rand_int = rand.nextInt(100);`
-
+例：`Random rand = new Random(); `\
+`int rand_int = rand.nextInt(100);`

@@ -2,7 +2,7 @@
 description: Tree
 ---
 
-# \[数据结构\] Tree
+# \[数据结构] Tree
 
 ## Tree的概念和性质
 
@@ -13,7 +13,9 @@ description: Tree
 
 1. 任何两个节点之间都有一条连接的路径；也就是说，所有点都必须fully connected，不能有落单的；
 2. 图中不能有环cycle/loop；
-3. ★**如果一个tree有n个节点，那么它必然有n - 1条edges**； 若少于`n - 1`则必然有点没有连接上， 若多于`n - 1`则必然有环cycle/loop；
+3. ★**如果一个tree有n个节点，那么它必然有n - 1条edges**；\
+   若少于`n - 1`则必然有点没有连接上，\
+   若多于`n - 1`则必然有环cycle/loop；
 {% endhint %}
 
 
@@ -24,7 +26,7 @@ description: Tree
 
 ### ★**Binary tree二叉树**的构造方法：背下来❗️❗️❗️
 
-```text
+```
 public class TreeNode {
 	int val;
 	TreeNode left;
@@ -45,22 +47,22 @@ public class TreeNode {
 
 ```
 
-第6行的操作是什么意思？  
-意思是：可以进行没有参数的初始化。没有这句的话，初始化就必须`TreeNode t = new TreeNode(3)`；有了这句就可以`TreeNode t = new TreeNode()`；  
-例：  
-`TreeNode empty = new TreeNode();` 第6行的功能  
-`TreeNode left = new TreeNode(1);` 第8行的功能  
-`TreeNode right = new TreeNode(2);`  
+第6行的操作是什么意思？\
+意思是：可以进行没有参数的初始化。没有这句的话，初始化就必须`TreeNode t = new TreeNode(3)`；有了这句就可以`TreeNode t = new TreeNode()`；\
+例：\
+`TreeNode empty = new TreeNode();` 第6行的功能\
+`TreeNode left = new TreeNode(1); `第8行的功能\
+`TreeNode right = new TreeNode(2);`\
 `TreeNode root = new TreeNode(3, node1, node2);` 第12行的功能；意思是把root的val设为3，把node1作为根节点root的左child，把node2作为根节点root的右child。
 
 ## Binary Search Trees（BST）
 
 Binary Search Tree的定义如下：（一句话概括是「左小右大」）
 
-对于树上任意节点node：  
-1. node 的左子树**「所有」**结点都小于 node 值；  
-2. node 的右子树**「所有」**结点都大于 node 值；  
-3. node 的左、右子树均为Binary Search Tree；
+对于树上任意节点node：\
+1\. node 的左子树**「所有」**结点都小于 node 值；\
+2\. node 的右子树**「所有」**结点都大于 node 值；\
+3\. node 的左、右子树均为Binary Search Tree；
 
 Binary Search Tree的优势在于**时间复杂度较低**，search、insert、delete的时间复杂度等于树的高度也就是`O(logn)`，最坏的情况是`O(n)`。（worst case是数列已经sorted，树退化成高度为n的一条线）
 
@@ -76,7 +78,7 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 ## 树的遍历
 
-[前序 Pre-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/qian-xu-bian-li-preorder-traversal)：根→左→右（Top down）
+前序 Pre-order：根→左→右（Top down）
 
 [中序 In-order](https://bhnigw.gitbook.io/-1/shu-ju-jie-gou-tree/zhong-xu-bian-li-inorder-traversal)：左→根→右
 
@@ -84,7 +86,7 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 [层序 Level Order](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-102.-binary-tree-level-order-traversal)：每一层从左到右遍历；
 
-![](../.gitbook/assets/fd1d63037d0e2f787d2140fee406e109094a4f66ab0837a7273f8b371eef8096-1-.jpg)
+![](<../.gitbook/assets/fd1d63037d0e2f787d2140fee406e109094a4f66ab0837a7273f8b371eef8096 (1).jpg>)
 
 前序遍历：1 2 4 5 7 3 6 8 9
 
@@ -102,7 +104,7 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 ● **`Perfect Binary Tree 完美二叉树`**：所有非Leaf结点都有两个child，且所有的Leaf都在同一水平线。
 
-![](../.gitbook/assets/img_6434.jpg)
+![](../.gitbook/assets/IMG\_6434.jpg)
 
 对于Perfect Binary Tree完美二叉树，它的Leaf节点有 **`n / 2`**个。
 
@@ -110,13 +112,13 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 
 ● **`Complete Tree 完全二叉树`**：从root至倒数第二层，满足Perfect Binary Tree，最后一层的Leaf可以不完全填充，但是Leaf必须靠左对齐。
 
-![](../.gitbook/assets/img_6432.jpg)
+![](../.gitbook/assets/IMG\_6432.jpg)
 
 
 
 ● **`Full Binary Tree 完满二叉树`**：所有非Leaf结点都有两个child，Leaf不必在同一层。（只要你有child，就必然是有两个child）
 
-![](../.gitbook/assets/img_6433.jpg)
+![](<../.gitbook/assets/IMG\_6433 (1).jpg>)
 
 
 
@@ -139,6 +141,4 @@ Binary Search Tree的优势在于**时间复杂度较低**，search、insert、d
 [863. All Nodes Distance K in Binary Tree](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-863.-all-nodes-distance-k-in-binary-tree)
 
 [572. Subtree of Another Tree](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-572.-subtree-of-another-tree)
-
-
 

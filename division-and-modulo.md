@@ -14,7 +14,7 @@ description: 取整和求余
 
 例子：
 
-```text
+```
 System.out.println(1 / 3);    //结果为0
 System.out.println(25 / 10);  //结果为2
 ```
@@ -27,7 +27,7 @@ System.out.println(25 / 10);  //结果为2
 
 例子：
 
-```text
+```
 System.out.println(1 % 3);    //结果为1
 System.out.println(25 % 10);  //结果为5
 System.out.println(4.5 % 3);  //结果为1.5
@@ -42,4 +42,3 @@ System.out.println(4.5 % 3);  //结果为1.5
 例题：
 
 [171. Excel Sheet Column Number](https://bhnigw.gitbook.io/leetcode/leetcode-171.-excel-sheet-column-number)
-

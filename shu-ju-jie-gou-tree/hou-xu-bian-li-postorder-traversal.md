@@ -8,7 +8,7 @@
 
 Post-order是先走左child，再走右child，最后把root加进去；
 
-```text
+```
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -33,6 +33,5 @@ class Solution {
 }
 ```
 
-Time: `O(N)`，每个node走了一遍  
-Space: `O(N)`，res的size 
-
+Time: `O(N)`，每个node走了一遍\
+Space: `O(N)`，res的size&#x20;

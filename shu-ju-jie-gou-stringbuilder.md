@@ -1,14 +1,14 @@
 ---
-description: 'StringBuilder, StringBuffer'
+description: StringBuilder, StringBuffer
 ---
 
-# \[数据结构\] StringBuilder
+# \[数据结构] StringBuilder
 
-概念：StringBuilder表示一个可变的字符characters序列。注意是character而不是string。可以实现对字符序列的增删改查。 
+概念：StringBuilder表示一个可变的字符characters序列。注意是character而不是string。可以实现对字符序列的增删改查。&#x20;
 
 ### 初始化：
 
-●`StringBuilder sb = new StringBuilder();` 
+●`StringBuilder sb = new StringBuilder(); `
 
 ●`StringBuilder[] sb = new StringBuilder[n];`也可以作为一个长度为n的数组来初始化
 
@@ -22,19 +22,19 @@ description: 'StringBuilder, StringBuffer'
 
 ### **核心的Syntax:**
 
-★`sb.append(element)`：把element加到str里；可以是String, Character, boolean... 
+★`sb.append(element)`：把element加到str里；可以是String, Character, boolean...&#x20;
 
-★`sb.reverse()`：把所有的characters颠倒 
+★`sb.reverse()`：把所有的characters颠倒&#x20;
 
 ●`sb.length()`：返回长度
 
-●`sb.charAt(index)` 
+●`sb.charAt(index)`&#x20;
 
 
 
 其他Syntax:
 
-●`sb.deleteCharAt(int index)`：删掉该index的字符 
+●`sb.deleteCharAt(int index)`：删掉该index的字符&#x20;
 
 ●`sb.insert(index, ch)`：把字符ch插入到指数为index的地方去
 
@@ -48,12 +48,11 @@ description: 'StringBuilder, StringBuffer'
 
 
 
- 
+&#x20;
 
 **StringBuilder和StringBuffer的区别：**
 
 **StringBuffer**是synchronized，是thread safe的，StringBuilder不是。但是**StringBuilder**更快。
 
-StringBuffer is synchronized, thread safe. StringBuilder is non-synchronized, not thread safe.   
+StringBuffer is synchronized, thread safe. StringBuilder is non-synchronized, not thread safe. \
 StringBuilder is more efficient than StringBuffer.
-

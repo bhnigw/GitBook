@@ -1,15 +1,15 @@
 # BFS模版
 
-`Queue<Integer> queue = new LinkedList<>();  
-满足条件A的加入queue；  
-  
-  
-while (!queue.isEmpty()) {   
-    int i = queue.poll();  
-    ...  
-    对i一番操作后；  
-    把满足条件A的加入queue；  
-}`
+`Queue<Integer> queue = new LinkedList<>();`\
+`满足条件A的加入queue；`\
+``\
+``\
+`while (!queue.isEmpty()) { `\
+`    int i = queue.poll();`\
+`    ...`\
+`    对i一番操作后；`\
+`    把满足条件A的加入queue；`\
+`}`
 
 ### 应用1：tree的层序遍历
 
@@ -28,8 +28,6 @@ while (!queue.isEmpty()) {
 ## 经典必会例题：
 
 [863. All Nodes Distance K in Binary Tree](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-863.-all-nodes-distance-k-in-binary-tree)
-
-
 
 
 

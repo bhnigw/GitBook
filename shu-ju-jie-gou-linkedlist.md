@@ -2,15 +2,15 @@
 description: Singly LinkedList
 ---
 
-# \[数据结构\] LinkedList
+# \[数据结构] LinkedList
 
 ## Singly LinkedList概念：
 
-![](.gitbook/assets/screen-shot-2021-05-13-at-9.59.13-pm.png)
+![](<.gitbook/assets/Screen Shot 2021-05-13 at 9.59.13 PM.png>)
 
-  
-每一个节点包含data和next；**data存放数据，next存放下个节点的引用Reference**。  
-head指向头节点，head不存放任何的数据，只是充当一个指向链表中真正存放数据的第一个节点的作用。  
+\
+每一个节点包含data和next；**data存放数据，next存放下个节点的引用Reference**。\
+head指向头节点，head不存放任何的数据，只是充当一个指向链表中真正存放数据的第一个节点的作用。\
 就这样一节一节往下面记录，直到最后一个节点的next指向null。
 
 **初始化：**`List<String> list = new LinkedList<>();`
@@ -19,10 +19,10 @@ head指向头节点，head不存放任何的数据，只是充当一个指向链
 
 ## ★Singly LinkedList的内部构造方法：`背下来！！！`
 
-用一个ListNode类来充当结点的模型。  
+用一个ListNode类来充当结点的模型。\
 其中有两个属性：存放数据的val，和存放下一结点的引用Reference；
 
-```text
+```
 public class ListNode {
 			int val;
 			ListNode next;
@@ -48,7 +48,7 @@ public class ListNode {
 
 方法一：如果不考虑空间复杂度，可以使用一个HashSet记录走过的节点，当遇到第一个在HashSet中存在的节点时，就说明回到了出发点，即链表有环，同时也找到了环的入口。（即便节点的val值有duplicate也不影响，对于HashSet来说不算重复，因为加入的是不同的对象本身，和val没有关系）
 
-★方法二：**Two pointer，**空间是O\(1\)；使用快慢指针，即采用两个指针fast和slow，slow每次移动一步而fast每次移动两步。当fast和slow第一次相遇时，证明链表有环。
+★方法二：**Two pointer，**空间是O(1)；使用快慢指针，即采用两个指针fast和slow，slow每次移动一步而fast每次移动两步。当fast和slow第一次相遇时，证明链表有环。
 
 详细：[https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-142.-linked-list-cycle-ii](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-142.-linked-list-cycle-ii)
 
@@ -56,7 +56,7 @@ public class ListNode {
 
 ## 如何遍历Singly LinkedList：
 
-```text
+```
 public static void printList(LinkedList list) {
 		Node currNode = list.head;
 
@@ -71,7 +71,7 @@ public static void printList(LinkedList list) {
 
 ## 计算单链表的长度：
 
-```text
+```
 public int length(Node head) {
 		int length = 0;
 		Node currNode = head;
@@ -93,7 +93,7 @@ public int length(Node head) {
 
 核心：`prev.next = curr.next;`
 
-```text
+```
 public void deleteNode(int val) {
 		Node curr = head;
 		Node prev = head;
@@ -122,17 +122,17 @@ public void deleteNode(int val) {
 
 [https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list](https://bhnigw.gitbook.io/leetcode/ji-chu-bi-hui/leetcode-206.-reverse-linked-list)
 
-Follow up: 
+Follow up:&#x20;
 
--What are the cases you would test?   
-Ans:   
-1. Empty list;  
-2. List that has cycle/loop;  
-3. List that spreads to two or multiple branches;  
-4. List is huge, too long;  
+\-What are the cases you would test? \
+Ans: \
+1\. Empty list;\
+2\. List that has cycle/loop;\
+3\. List that spreads to two or multiple branches;\
+4\. List is huge, too long;\
 
 
--If this was an internal API what could break?  
+\-If this was an internal API what could break?\
 Ans: has cycle/loop;
 
 
@@ -152,14 +152,13 @@ Ans: has cycle/loop;
 
 ## **一些Syntax:**
 
-●`list.add()`： 添加元素  
-●`list.get(index)`：取值  
+●`list.add()`： 添加元素\
+●`list.get(index)`：取值\
 ●`list.remove(element)`： 删去元素，如果有duplicate就删除第一个出现的
 
-●`list.addFirst()`： 加在最前  
-●`list.addLast()`： 加在最末  
-●`list.removeFirst()`： 去除最前  
-●`list.removeLast()`： 去除最末  
-●`list.getFirst()`： 取值最前  
+●`list.addFirst()`： 加在最前\
+●`list.addLast()`： 加在最末\
+●`list.removeFirst()`： 去除最前\
+●`list.removeLast()`： 去除最末\
+●`list.getFirst()`： 取值最前\
 ●`list.getLast()`： 取值最末
-

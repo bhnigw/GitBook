@@ -8,7 +8,7 @@
 
 [79. Word Search](https://bhnigw.gitbook.io/leetcode/leetcode/leetcode-79.-word-search)
 
-```text
+```
 class Solution {
     public int numIslands(char[][] grid) {
         int res = 0;
@@ -47,7 +47,7 @@ class Solution {
 
 
 
-```text
+```
 class Solution {
     public (char[][] board, String word) {        
         if (word == null || word.length() == 0) return false;
@@ -86,4 +86,3 @@ class Solution {
     }
 }
 ```
-

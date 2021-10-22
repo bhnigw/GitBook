@@ -1,4 +1,4 @@
-# \[数据结构\] String和Character
+# \[数据结构] String和Character
 
 ## **初始化：**
 
@@ -10,35 +10,35 @@
 
 #### **Character初始化：**
 
-`char ch = 'a';`   
+`char ch = 'a'; ` &#x20;
 
-`Character ch = 'a';`   
+`Character ch = 'a';`  &#x20;
 
 `Character ch = new Character('a');`
 
-区别：char是一个primitive data type；而Character是一个Object 它包含许多static methods，如toUpperCase\(\)等。 
+区别：char是一个primitive data type；而Character是一个Object 它包含许多static methods，如toUpperCase()等。&#x20;
 
-#### char\[ \] array的初始化：
+#### char\[ ] array的初始化：
 
-1. `char[] JavaCharArray = {'a', 'b', 'c', 'd'};` 
+1. `char[] JavaCharArray = {'a', 'b', 'c', 'd'}; `
 2. `char[] JavaCharArray = new char[4];`
 
 
 
 ## 如何遍历String里面的characters：
 
-方法一：直接用charAt\(\)
+方法一：直接用charAt()
 
-```text
+```
     String str = "abcd";
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 		}
 ```
 
-方法二：转换为char\[ \] array
+方法二：转换为char\[ ] array
 
-```text
+```
     String str = "abcd";
 		char[] JavaCharArray = str.toCharArray();
 		for (char ch : JavaCharArray) {
@@ -63,17 +63,17 @@
 
 
 
-### 2️⃣ 一串char\[ \] array和**String的互相转换：**
+### 2️⃣ 一串char\[ ] array和**String的互相转换：**
 
-#### **String 转化为➔** char\[ \] array**:**
+#### **String 转化为➔ **char\[ ] array**:**
 
-`String str = "abcd";  
-char[] JavaCharArray = str.toCharArray();`
+`String str = "abcd";`\
+`char[] JavaCharArray = str.toCharArray();`
 
-#### char\[ \] array **转化为➔ String:**
+#### char\[ ] array **转化为➔ String:**
 
-`char[] JavaCharArray = {'a', 'b', 'c', 'd', 'e'};   
-String str = new String(JavaCharArray);`
+`char[] JavaCharArray = {'a', 'b', 'c', 'd', 'e'}; `\
+`String str = new String(JavaCharArray);`
 
 
 
@@ -83,14 +83,16 @@ String str = new String(JavaCharArray);`
 
 char字符变量是可以进行加减运算的，在运算的时候，我们通过查找对应字符变量值的ASCII值，利用其在ASCII里的对应值进行加减运算。ASCII相关知识：
 
-{% page-ref page="ascii-ma.md" %}
+{% content-ref url="ascii-ma.md" %}
+[ascii-ma.md](ascii-ma.md)
+{% endcontent-ref %}
 
 
 
 ## 怎样遍历26个英文字母：
 
-`for (char ch = 'a'; ch <= 'z'; ch++) {  
-...}`
+`for (char ch = 'a'; ch <= 'z'; ch++) {`\
+`...}`
 
 
 
@@ -100,7 +102,7 @@ char字符变量是可以进行加减运算的，在运算的时候，我们通�
 
 ●`str.charAt()`：注意 ⚠️  返回的是char类型，不是string
 
-●`str.tocharArray()`：把str转化为一个char\[ \] array
+●`str.tocharArray()`：把str转化为一个char\[ ] array
 
 ●`str.isEmpty()`：判断是否是empty string，如果string的长度为0，返回true；长度大于0，返回false； ⚠️  如果string是null的话，会报错NullPointerException；
 
@@ -118,15 +120,15 @@ char字符变量是可以进行加减运算的，在运算的时候，我们通�
 
 
 
-★`str.compare()`：把str1和str2做lexicographical的比较，返回1或-1或0；  
-                                                    若返回结果为1，则str1 &gt; str2；  
-                                                    若返回结果为-1，则str1 &lt; str2；  
-                                                    若返回结果为0，则str1, str2相同；
+★`str.compare()`：把str1和str2做lexicographical的比较，返回1或-1或0；\
+&#x20;                                                   若返回结果为1，则str1 > str2；\
+&#x20;                                                   若返回结果为-1，则str1 < str2；\
+&#x20;                                                   若返回结果为0，则str1, str2相同；
 
-★`str1.compareTo(str2)`：把str1和str2做lexicographical的比较，返回它们在Unicode中的位置差  
-                                                    若返回结果 &gt; 0，则str1 &gt; str2；  
-                                                    若返回结果 &lt; 0，则str1 &lt; str2；  
-                                                    若返回结果 = 0，则str1, str2相同；
+★`str1.compareTo(str2)`：把str1和str2做lexicographical的比较，返回它们在Unicode中的位置差\
+&#x20;                                                   若返回结果 > 0，则str1 > str2；\
+&#x20;                                                   若返回结果 < 0，则str1 < str2；\
+&#x20;                                                   若返回结果 = 0，则str1, str2相同；
 
 
 
@@ -158,7 +160,7 @@ char字符变量是可以进行加减运算的，在运算的时候，我们通�
 
 ★`Character.getNumericValue('6')`：把char转化为整数int
 
-●`Character.isLetterOrDigit(ch)`：如果是字母或者数字就返回true，相当于\(Character.isLetter\(ch\) \|\| Character.isDigit\(ch\)\)为真
+●`Character.isLetterOrDigit(ch)`：如果是字母或者数字就返回true，相当于(Character.isLetter(ch) || Character.isDigit(ch))为真
 
 ●`Character.isWhitespace(' ')`：判断char是不是空格
 
@@ -182,7 +184,5 @@ char字符变量是可以进行加减运算的，在运算的时候，我们通�
 
 
 
-### \*\*\*\*
-
-
+### ****
 

@@ -8,7 +8,7 @@
 
 In-order是先走左child，再把root加进去，最后走右child；
 
-```text
+```
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -33,6 +33,5 @@ class Solution {
 }
 ```
 
-Time: `O(N)`，每个node走了一遍  
-Space: `O(N)`，res的size 
-
+Time: `O(N)`，每个node走了一遍\
+Space: `O(N)`，res的size&#x20;

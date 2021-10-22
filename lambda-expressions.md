@@ -10,21 +10,19 @@
 
 例如：
 
-●`int[][] intervals;`  
-   `Arrays.sort(intervals, (int[] a, int[] b) -> a[0] - b[0]);`  
+●`int[][] intervals;`\
+&#x20;  `Arrays.sort(intervals, (int[] a, int[] b) -> a[0] - b[0]);`\
 意思是：根据intervals这个二维数组里面小数组的第一个元素，把小数组从小到大排列。
 
 
 
-●`Node node;`  
-  `PriorityQueue<Node> pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`  
+●`Node node;`\
+&#x20; `PriorityQueue<Node> pq = new PriorityQueue<>((node1, node2) -> node1.val - node2.val);`\
 意思是：根据ListNode的val值，构建min Heap，它的Heap堆顶会存放val值最小的node。
 
 
 
-●`String[] words;`  
-  `Arrays.sort(words, (a,b) -> a.length()-b.length());` // Sort the words based on their lengths  
+●`String[] words;`\
+&#x20; `Arrays.sort(words, (a,b) -> a.length()-b.length());` // Sort the words based on their lengths\
 意思是：根据words数组里每个单词的长度，把单词从小到大排序。
-
-
 

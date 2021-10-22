@@ -2,5 +2,5 @@
 description: Deque
 ---
 
-# \[数据结构\] Deque
+# \[数据结构] Deque
 

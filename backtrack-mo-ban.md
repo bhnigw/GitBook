@@ -20,7 +20,7 @@ description: Backtrack，Recursive
 
 在往回back track的时候，要去掉current subset的末尾的元素：
 
-![](.gitbook/assets/img_6394.jpg)
+![](.gitbook/assets/IMG\_6394.jpg)
 
 
 
@@ -30,7 +30,5 @@ description: Backtrack，Recursive
 
 比如在下图中，路径`4 -> 0 -> 1`不是环，所以回到起点4后，boolean数组就变回了`visited = [F, F, F, F, T]`
 
-![](.gitbook/assets/img_6338.jpg)
-
-
+![](.gitbook/assets/IMG\_6338.jpg)
 

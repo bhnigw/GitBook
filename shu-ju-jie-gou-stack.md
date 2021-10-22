@@ -1,12 +1,12 @@
 ---
-description: 'Stack, Vector'
+description: Stack, Vector
 ---
 
-# \[数据结构\] Stack
+# \[数据结构] Stack
 
 核心：Last-in-First-out**；**
 
-**初始化：**`Stack<Integer> stackName = new Stack<>();` 
+**初始化：**`Stack<Integer> stackName = new Stack<>(); `
 
 
 
@@ -20,7 +20,7 @@ description: 'Stack, Vector'
 
 ●`stackName.isEmpty()` : 判断stack是否为空，空则返回true
 
-`stackName.size()` 
+`stackName.size()`&#x20;
 
 `stackName.search(Object element)` : 判断括号内元素是否存在于stack，若存在则返回距离栈顶的位置，若不存在则返回-1
 
@@ -28,9 +28,7 @@ description: 'Stack, Vector'
 
 关系图：
 
-![](.gitbook/assets/selection_028.png)
-
-
+![](.gitbook/assets/Selection\_028.png)
 
 
 

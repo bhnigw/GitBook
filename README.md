@@ -23,15 +23,15 @@
 #### **1️⃣  String 转化为 ➔ 整数int类型:**
 
 1. ★使用：**`int num = Integer.parseInt(str);`** 返回的是int，是primitive type
-2. 使用：`Integer num = Integer.valueOf(str);` 注意Integer.valueOf\(\)返回的是object，所以要用Integer而不是int来初始化；int是primitive类型，Integer是Object。 
+2.  使用：`Integer num = Integer.valueOf(str);` 注意Integer.valueOf()返回的是object，所以要用Integer而不是int来初始化；int是primitive类型，Integer是Object。&#x20;
 
-   如果一定要用此方法，那就需要用intValue\(\)方法把Integer转化成int：`int i = num.intValue();`
+    如果一定要用此方法，那就需要用intValue()方法把Integer转化成int：`int i = num.intValue();`
 
 {% hint style="warning" %}
 Integer转int：`int i = num.intValue();`
 {% endhint %}
 
-\*\*\*\*
+****
 
 #### **2️⃣  整数int类型转化为 ➔ String:**
 
@@ -48,7 +48,7 @@ Integer转int：`int i = num.intValue();`
 
 #### **String 转化为➔ Character:**
 
-       使用：`char ch = str.charAt(i);` 单个返回str中第i个字符
+&#x20;      使用：`char ch = str.charAt(i);` 单个返回str中第i个字符
 
 #### **Character 转化为➔ String:**
 
@@ -59,21 +59,19 @@ Integer转int：`int i = num.intValue();`
 
 
 
-### 2️⃣ 一串char\[ \] array和**String的互相转换：**
+### 2️⃣ 一串char\[ ] array和**String的互相转换：**
 
-#### **String 转化为➔** char\[ \] array**:**
+#### **String 转化为➔ **char\[ ] array**:**
 
-`String str = "abcd";  
-char[] JavaCharArray = str.toCharArray();`
+`String str = "abcd";`\
+`char[] JavaCharArray = str.toCharArray();`
 
-#### 
+####
 
-#### char\[ \] array **转化为➔ String:**
+#### char\[ ] array **转化为➔ String:**
 
-`char[] JavaCharArray = {'a', 'b', 'c', 'd', 'e'};` 
+`char[] JavaCharArray = {'a', 'b', 'c', 'd', 'e'}; `
 
 1. 使用：`String str = new String(JavaCharArray);`
 2. 使用：`String str = String.valueOf(JavaCharArray);`
-
-
 
